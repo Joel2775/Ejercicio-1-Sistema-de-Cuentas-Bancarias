@@ -13,7 +13,7 @@ public class CuentaCorriente implements OperacionesBancarias, Transferible{
     @Override
     public void depositar(double monto) {
         saldo += monto;
-        System.out.println("se ha despositado $" + monto + " y el saldo total es de: $" + consultarSaldo());
+        System.out.println("Deposito: $" + monto + " - Saldo: $" + consultarSaldo());
     }
 
     @Override
